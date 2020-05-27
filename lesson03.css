@@ -1,0 +1,59 @@
+/*
+COLOR PALETTE
+https://coolors.co/2d728f-3b8ea5-f5ee9e-f49e4c-ab3428
+#2d728f - CG Blue
+#3b8ea5 - Blue
+#f5ee9e - Green Yellow
+#f49e4c - Sandy Brown
+#ab3428 - Sweet Brown
+*/
+
+
+/* Global styles
+---------------------------*/
+body {
+    color: #080f0f;
+}
+img {
+    width: 300px;
+    border: 3px solid #4056a1;
+}
+a {
+    color: #ab3428;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* Profile
+---------------------------*/
+header {
+    background: #2d728f;
+}
+
+/* Projects
+---------------------------*/
+.projects {
+    background: #f5ee9e;
+}
+.projects a {
+    color: #f5ee9e;
+    background: #3b8ea5;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Education
+---------------------------*/
+.education {
+    background: #2d728f ;
+}
+
+
+/* Contact Info
+---------------------------*/
+footer {
+    
+    background: #f49e4c;
+}
