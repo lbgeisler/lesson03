@@ -1,0 +1,112 @@
+/*
+COLOR PALETTE
+https://coolors.co/f8e9a1-f76c6c-a8d0e6-374785-24305e
+
+#f8e9a1 Medium Champagne
+#f76c6c Candy Pink
+#a8d0e6 Uranian Blue
+#374785 Dark Cornflower Blue
+#24305e Space Cadet
+*/
+
+
+/* Global styles
+---------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    color: #24305e;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+img {
+    width: 300px;
+    border: 3px solid #4056a1;
+}
+a {
+    color: #f8e9a1;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+    /*line-height: 1;*/
+    text-shadow: 4px 4px 4px #a8d0e6;
+   
+}
+h2 {
+    font-size: 45px;
+}
+h1, h2 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Profile
+---------------------------*/
+header {
+    background: #f76c6c;
+}
+
+/* Projects
+---------------------------*/
+.projects {
+    background: #a8d0e6;
+}
+.projects a {
+    color: #f76c6c;
+}
+.projects .btn {
+    color: #f76c6c;
+    background: #374785;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(55, 71, 133, 80%);
+}
+.project-item {
+    overflow: hidden;
+    border-top: 1px dashed #374785;
+    border-bottom: 1px dashed #374785 ;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
+
+/* Education
+---------------------------*/
+.education {
+    background: #f8e9a1;
+}
+
+
+/* Contact Info
+---------------------------*/
+footer {
+    color: #a8d0e6;
+    background: #374785;
+}
